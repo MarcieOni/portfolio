@@ -11,13 +11,33 @@
 }
 
 .work {
+    
+}
+
+.card {
+    height: 100%;
+    text-align: center;
+}
+
+.work .card-body {
     display: flex;
+    align-items: center;
+}
+
+.work ul li {
+    margin: 0 15px 0 15px;
 }
 
 #projects {
 
 }
 
+#projects ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 #projects .card-title {
     text-align: center;
 }
+

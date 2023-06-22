@@ -1,0 +1,23 @@
+.body-content li {
+    list-style-type: none;
+}
+
+#intro {
+
+}
+
+#school {
+
+}
+
+.work {
+    display: flex;
+}
+
+#projects {
+
+}
+
+#projects .card-title {
+    text-align: center;
+}

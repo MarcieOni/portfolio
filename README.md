@@ -34,7 +34,7 @@ You can also visit the live site [here](https://github.com/MarcieOni/portfolio.g
 
 ## Known Bugs
 
-There are currently no known bugs in this portfolio.
+There are currently no known bugs in this portfolio. ♥
 
 ## License
 

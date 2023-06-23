@@ -1,13 +1,33 @@
+body {
+    background-image: url(/img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .body-content li {
     list-style-type: none;
+}
+
+.section1 {
+    height: 100vh;
+
 }
 
 #intro {
 
 }
 
-#school {
+h1, h2 {
+    text-align: center;
+}
 
+#school {
+    
+}
+
+.section2 {
+    height: 100vh;
 }
 
 .work {
@@ -25,8 +45,13 @@
 }
 
 .work ul li {
-    margin: 0 15px 0 15px;
+    margin: 25px 100px;
 }
+
+.section3 {
+    height: 100vh;
+}
+
 
 #projects {
 
@@ -35,6 +60,7 @@
 #projects ul {
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 #projects .card-title {

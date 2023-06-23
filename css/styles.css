@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
 body {
     background-image: url(/img/bg.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
 
 .body-content li {
@@ -10,7 +14,7 @@ body {
 }
 
 .section1 {
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -20,14 +24,33 @@ body {
 
 h1, h2 {
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin: 48px 0;
+}
+
+h5 {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 #school {
-    
+    max-width: 75%;
+    margin: auto;
+    padding: 24px;
+    background-color: #cecece4d;
+    border-radius: 50px;
+}
+
+#girl {
+    height: 250px;
+    float: right;
+    margin: 1px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 8px -4px rgb(0, 0, 0);
 }
 
 .section2 {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .work {
@@ -37,6 +60,7 @@ h1, h2 {
 .card {
     height: 100%;
     text-align: center;
+    box-shadow: 0px 8px 8px -4px rgb(0, 0, 0);
 }
 
 .work .card-body {
@@ -45,11 +69,11 @@ h1, h2 {
 }
 
 .work ul li {
-    margin: 25px 100px;
+    margin: 25px 75px;
 }
 
 .section3 {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 

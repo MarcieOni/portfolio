@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
 
 body {
-    background-image: url(/img/bg.png);
+    background-image: url(../img/bg.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -15,11 +15,6 @@ body {
 
 .section1 {
     min-height: 100vh;
-
-}
-
-#intro {
-
 }
 
 h1, h2 {
@@ -53,10 +48,6 @@ h5 {
     min-height: 100vh;
 }
 
-.work {
-    
-}
-
 .card {
     height: 100%;
     text-align: center;
@@ -76,11 +67,6 @@ h5 {
     min-height: 100vh;
 }
 
-
-#projects {
-
-}
-
 #projects ul {
     display: flex;
     justify-content: space-around;
@@ -90,4 +76,3 @@ h5 {
 #projects .card-title {
     text-align: center;
 }
-
